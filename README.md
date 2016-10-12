@@ -25,7 +25,7 @@
     npm install -g angular-cli
     md nginx
 
-**Create the following files:**
+**Create the following files (relative to the application root path):**
 
 \docker-compose.yml
 
@@ -83,7 +83,7 @@
     COPY ./nginx.conf /etc/nginx/nginx.conf
 
 
-**Add the constructor to the file \frontent\src\app\app.component.ts**
+**Add the constructor to the file \frontend\src\app\app.component.ts**
 
     export class AppComponent {
         constructor(private http: Http) {
