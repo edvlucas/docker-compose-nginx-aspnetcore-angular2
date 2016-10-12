@@ -95,7 +95,8 @@
         title = 'app works!';
     }
 
-**Navigate http://localhost
+**Navigate to**
+[http://localhost](http://localhost)
 
 
 
