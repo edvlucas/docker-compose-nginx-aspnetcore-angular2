@@ -73,7 +73,6 @@
         location /api {
             proxy_pass          http://webapi:5000;
             proxy_set_header        Host $host;
-        }
         }   
     }
 
